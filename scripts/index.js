@@ -72,8 +72,8 @@ function reset(x) {
 }
 
 function summerImg() {
-  document.getElementById("bg-img").src = "../images/sale-summer.jpg";
+  document.getElementById("bg-img").src = "images/sale-summer.jpg";
 }
 function winterImg() {
-  document.getElementById("bg-img").src = "../images/sale-winter.jpg";
+  document.getElementById("bg-img").src = "images/sale-winter.jpg";
 }
