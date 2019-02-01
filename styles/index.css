@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  text-align: center;
+}
+
+.wrapper {
+  position: relative;
+  min-height: 100vh;
+  border-radius: 8px;
+}
+
+[class|="confetti"] {
+  position: absolute;
+}
+
+.red {
+  background-color: #e94a3f;
+}
+
+.green {
+  background-color: #1ec726;
+}
+
+.blue {
+  background-color: #5fc9f5;
+}
+
+.yellow {
+  background-color: #faa040;
+}
+
+.purple {
+  background-color: #9400d3;
+}
+
+.sale-btn {
+  padding: 5px 10px;
+  background-color: hsl(180, 59%, 49%);
+  color: white;
+  font-size: 12px;
+  text-align: center;
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.winter-sale-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.summer-sale-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#bg-img {
+  display: block;
+  margin: 10px auto 0 auto;
+  width: 40%;
+}
+
+/*media queries*/
+
+@media only screen and (max-width: 600px) {
+  .wrapper {
+    min-height: 80vh;
+    min-width: 80vw;
+  }
+  #bg-img {
+    width: 50%;
+  }
+  [class|="confetti"] {
+    position: fixed;
+  }
+  .sale-btn {
+    padding: 4px px;
+    font-size: 80%;
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  .wrapper {
+    min-height: 60vh;
+    min-width: 60vw;
+  }
+  #bg-img {
+    width: 50%;
+  }
+  .sale-btn {
+    padding: 3px 6px;
+    font-size: 60%;
+  }
+  [class|="confetti"] {
+    position: fixed;
+  }
+}
